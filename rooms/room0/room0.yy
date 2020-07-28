@@ -7,8 +7,7 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "7d2ac355-9906-4f73-86c0-c5680dd4b254",
-        "b1df8a50-eb5f-4a2f-99fe-8c18c2ab77ea"
+        "28aa588f-dd29-422b-be72-65162ce6f4ab"
     ],
     "IsDnD": false,
     "layers": [
@@ -26,8 +25,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_276A2461","id": "7d2ac355-9906-4f73-86c0-c5680dd4b254","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_276A2461","objId": "f32dcc28-e2bb-4549-b980-110c126b4aac","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 576,"y": 352},
-{"name": "inst_32ACBF8E","id": "b1df8a50-eb5f-4a2f-99fe-8c18c2ab77ea","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_32ACBF8E","objId": "9502105e-0c9c-4eaf-bb1f-1b52c70ca9a5","properties": null,"rotation": 0,"scaleX": 0.5,"scaleY": 2.5,"mvc": "1.1","x": 832,"y": 384}
+{"name": "inst_E1ADBA8","id": "28aa588f-dd29-422b-be72-65162ce6f4ab","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_E1ADBA8","objId": "7be30d1b-b472-4812-9343-37f97e1dfcf6","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 160,"y": 544}
             ],
             "layers": [
 
@@ -45,7 +43,7 @@
             "id": "02edb8a8-237a-4fed-99b8-68873ce31ea7",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4278190080 },
+            "colour": { "Value": 4278216192 },
             "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
