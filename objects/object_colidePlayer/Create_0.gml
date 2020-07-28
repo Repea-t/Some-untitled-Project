@@ -6,3 +6,5 @@ dj = 0
 addwalksp = 0
 so_we_dont_fly = 0
 
+global.playerx = x
+global.playery = y

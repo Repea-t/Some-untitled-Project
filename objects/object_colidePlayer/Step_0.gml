@@ -13,6 +13,8 @@ var devide = 1
 hsp = move_horisontal * 5
 vsp = move_Vertical * 5
 
+global.playerx = x
+global.playery = y
 
 //Horizontal Colison
 if (place_meeting(x+hsp,y,object_Universal_Colision))
