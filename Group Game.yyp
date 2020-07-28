@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "beb70fc1-47ed-4221-916d-26b505a19d6f",
+            "Value": {
+                "id": "67409064-5086-4706-8d86-f9ea3556e56a",
+                "resourcePath": "sprites\\Sonic\\Sonic.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c82224a6-8212-480e-af09-a54c92010cf4",
             "Value": {
                 "id": "382facaa-f988-48ff-85ef-d8c480438c9f",
