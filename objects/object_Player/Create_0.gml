@@ -8,3 +8,5 @@ so_we_dont_fly = 0
 
 global.playerx = x
 global.playery = y
+
+global.playerA = image_angle

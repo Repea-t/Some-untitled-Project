@@ -15,6 +15,8 @@ vsp = move_Vertical * 5
 
 global.playerx = x
 global.playery = y
+global.playerA = image_angle
+
 
 //Horizontal Colison
 if (place_meeting(x+hsp,y,object_Universal_Colision))
@@ -43,4 +45,17 @@ x = x + hsp
 y = y + vsp
 
 
+
+image_angle=point_direction(x,y,mouse_x,mouse_y)
+
+
+
+if mouse_check_button_pressed(mb_left)
+{
+	var inst = instance_create_layer(x, y, "Instances", object_sword);
+	with (inst)
+	{
+		
+    }
+}
 
