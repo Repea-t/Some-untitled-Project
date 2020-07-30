@@ -40,13 +40,23 @@ if (place_meeting(x,y+vsp,object_Universal_Colision))
 	addwalksp = addwalksp + .1
 }
 
-
+if stun == 0
+{
 x = x + hsp
 y = y + vsp
+}
 
 
+
+
+if stun == 0
+{
 
 image_angle=point_direction(x,y,mouse_x,mouse_y)
+}
+
+
+
 
 
 
@@ -59,3 +69,30 @@ if mouse_check_button_pressed(mb_left)
     }
 }
 
+
+if (place_meeting(x,y,object_Universal_Colision))
+{
+	for(var i = 0; i < 1000; ++i)
+	{
+		if(!place_meeting(x + i, y, object_Universal_Colision))
+		{
+			x += i;
+			break;
+		}
+		if(!place_meeting(x - i, y, object_Universal_Colision))
+		{
+			x -= i;
+			break;
+		}
+		if(!place_meeting(x, y + i, object_Universal_Colision))
+		{
+			y += i;
+			break;
+		}
+		if(!place_meeting(x, y - i, object_Universal_Colision))
+		{
+			y -=i;
+		}
+	}
+}
+direction = image_angle

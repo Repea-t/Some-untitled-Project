@@ -2,8 +2,7 @@
 // You can write your code in this editor
 
 
-oldx = x
-oldy = y
+
 path = path_add()
 if stun == 0
 {
@@ -29,12 +28,38 @@ if stun == 1
 
 
 
+if (place_meeting(x,y,object_Universal_Colision))
+{
+	for(var i = 0; i < 1000; ++i)
+	{
+		if(!place_meeting(x + i, y, object_Universal_Colision))
+		{
+			x += i;
+			break;
+		}
+		if(!place_meeting(x - i, y, object_Universal_Colision))
+		{
+			x -= i;
+			break;
+		}
+		if(!place_meeting(x, y + i, object_Universal_Colision))
+		{
+			y += i;
+			break;
+		}
+		if(!place_meeting(x, y - i, object_Universal_Colision))
+		{
+			y -=i;
+		}
+	}
+}
+
 
 if (place_meeting(x,y,object_Universal_Colision))
 {	
 	move_bounce_solid(0)
 }
 
-
-
+var inst = instance_nearest(x, y, object_Player);
+image_angle = point_direction(x,y,inst.x,inst.y)
 
