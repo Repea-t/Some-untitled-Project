@@ -1,5 +1,5 @@
-x = global.playerx
-y = global.playery
+x = Old_object.x
+y = Old_object.y
 
 angle = angle + 10
 

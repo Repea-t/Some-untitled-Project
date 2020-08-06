@@ -60,6 +60,14 @@ if (place_meeting(x,y,object_Universal_Colision))
 	move_bounce_solid(0)
 }
 
-var inst = instance_nearest(x, y, object_Player);
-image_angle = point_direction(x,y,inst.x,inst.y)
+if stun == 0
+{
+	var inst = instance_nearest(x, y, object_Player);
+	image_angle = point_direction(x,y,inst.x,inst.y)
+}
 
+
+direction = image_angle
+
+healthbar_x = x - 90
+healthbar_y = y - 15

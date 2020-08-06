@@ -1,3 +1,5 @@
+/// @description Insert description here
+// You can write your code in this editor
 //Get Player Input
 key_left = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
@@ -62,13 +64,10 @@ image_angle=point_direction(x,y,mouse_x,mouse_y)
 
 if mouse_check_button_pressed(mb_left)
 {
-	var inst = instance_create_layer(x, y, "Instances", object_sword);
+	var inst = instance_create_layer(x, y, "Instances", object_yoyo);
 	with (inst)
 	{
-		playerid = other.sourceplayer
-		oldx = x
-		oldy = y
-		oldA = other.image_angle
+		playerid = other.id
     }
 }
 

@@ -3,8 +3,10 @@
 global.basicsworddamage = 70
 global.basicswordknockback = -10
 //Yoyo like thing
-
-
+global.basicyoyodamage = 15
+global.basicyoyoknockback = -5
+global.basicyoyorange = 125
+global.basicyoyomaxspeed = 20
 
 
 
