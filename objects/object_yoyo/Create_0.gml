@@ -19,3 +19,6 @@ direction = image_angle
 
 speed = 5
 Active = 1
+
+
+global.weaponactive = true

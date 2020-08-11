@@ -10,4 +10,5 @@ image_angle = angle
 if angle >= original + 60
 {
 	instance_destroy(object_sword)
+	global.weaponactive = false
 }

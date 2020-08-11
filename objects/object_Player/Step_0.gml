@@ -51,7 +51,6 @@ y = y + vsp
 
 if stun == 0
 {
-
 image_angle=point_direction(x,y,mouse_x,mouse_y)
 }
 
@@ -60,7 +59,7 @@ image_angle=point_direction(x,y,mouse_x,mouse_y)
 
 
 
-if mouse_check_button_pressed(mb_left)
+if mouse_check_button_pressed(mb_left) and global.weaponactive = false
 {
 	var inst = instance_create_layer(x, y, "Instances", object_sword);
 	with (inst)
@@ -70,6 +69,7 @@ if mouse_check_button_pressed(mb_left)
 		oldy = y
 		oldA = other.image_angle
     }
+	global.weaponactive = true
 }
 
 

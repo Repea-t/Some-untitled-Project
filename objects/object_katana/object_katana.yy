@@ -1,14 +1,14 @@
 {
-    "id": "9502105e-0c9c-4eaf-bb1f-1b52c70ca9a5",
+    "id": "0ee03837-eb1c-49aa-b39f-334e38b672dd",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "object_Wall",
+    "name": "object_katana",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "b7fb9b7c-023a-498f-84b9-504e8e2ef52a",
+    "parentObjectId": "10af62f7-3fd4-4351-a517-2bae4ed79e7b",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "31665f72-0034-410f-80dc-e1b6a2739cff",
+    "spriteId": "32f7a1ea-7dbd-49c2-918d-11b99736bc6c",
     "visible": true
 }

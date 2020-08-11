@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+
 //Get Player Input
 key_left = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
@@ -12,8 +14,8 @@ var move_Vertical = key_down - key_Up
 var devide = 1
 
 
-hsp = move_horisontal * 5
-vsp = move_Vertical * 5
+hsp = move_horisontal * 7
+vsp = move_Vertical * 7
 
 global.playerx = x
 global.playery = y
@@ -53,7 +55,6 @@ y = y + vsp
 
 if stun == 0
 {
-
 image_angle=point_direction(x,y,mouse_x,mouse_y)
 }
 
@@ -62,14 +63,58 @@ image_angle=point_direction(x,y,mouse_x,mouse_y)
 
 
 
-if mouse_check_button_pressed(mb_left) and global.weaponactive == false
+if mouse_check_button_pressed(mb_left) and global.weaponactive = false
 {
-	var inst = instance_create_layer(x, y, "Instances", object_yoyo);
+	var inst = instance_create_layer(x, y, "Instances", object_katana);
 	with (inst)
 	{
-		playerid = other.id
+		playerid = other.sourceplayer
+		oldx = x
+		oldy = y
+		oldA = other.image_angle
+    }
+	global.weaponactive = true
+	speed = 10
+	alarm_set(2,2)
+}
+
+
+if mouse_check_button_pressed(mb_right) and global.weaponactive = false
+{
+	var inst = instance_create_layer(x, y, "Instances", object_ninjastar);
+	with (inst)
+	{
+		playerid = other.sourceplayer
+		x = other.x
+		y = other.y
+		direction = other.direction
+		speed = 15
     }
 }
+
+
+
+
+
+
+if mouse_check_button_pressed(mb_left) and global.weaponactive = false
+{
+	var inst = instance_create_layer(x, y, "Instances", object_katana);
+	with (inst)
+	{
+		playerid = other.sourceplayer
+		oldx = x
+		oldy = y
+		oldA = other.image_angle
+    }
+	global.weaponactive = true
+	speed = 10
+	alarm_set(2,2)
+}
+
+
+
+
 
 
 if (place_meeting(x,y,object_Universal_Colision))

@@ -14,3 +14,5 @@ healthbar_width = 60
 healthbar_height = 8
 healthbar_x = x - 90
 healthbar_y = y - 15
+
+Alive = true

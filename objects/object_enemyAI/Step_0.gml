@@ -2,7 +2,8 @@
 // You can write your code in this editor
 
 
-
+if Alive == true
+{
 path = path_add()
 if stun == 0
 {
@@ -25,6 +26,25 @@ if stun == 1
 {
 	path = path_end()
 }
+
+
+
+
+if (place_meeting(x,y,object_Universal_Colision))
+{	
+	move_bounce_solid(0)
+}
+
+if stun == 0
+{
+	var inst = instance_nearest(x, y, object_Player);
+	image_angle = point_direction(x,y,inst.x,inst.y)
+}
+
+}
+
+healthbar_x = x - 90
+healthbar_y = y - 15
 
 
 
@@ -55,19 +75,10 @@ if (place_meeting(x,y,object_Universal_Colision))
 }
 
 
-if (place_meeting(x,y,object_Universal_Colision))
-{	
-	move_bounce_solid(0)
-}
-
-if stun == 0
-{
-	var inst = instance_nearest(x, y, object_Player);
-	image_angle = point_direction(x,y,inst.x,inst.y)
-}
-
-
 direction = image_angle
 
-healthbar_x = x - 90
-healthbar_y = y - 15
+
+if localhp <= 0
+{
+	Alive = false
+}
