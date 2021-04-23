@@ -1,0 +1,2 @@
+//GUI script
+drawGUI(id)
