@@ -24,9 +24,9 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"object_Universal_Colision","path":"objects/object_Universal_Colision/object_Universal_Colision.yy",},"parent":{"name":"Object_sword_spell_base","path":"objects/Object_sword_spell_base/Object_sword_spell_base.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"object_enemytarget","path":"objects/object_enemytarget/object_enemytarget.yy",},"parent":{"name":"Object_sword_spell_base","path":"objects/Object_sword_spell_base/Object_sword_spell_base.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Object_sword_spell_base","path":"objects/Object_sword_spell_base/Object_sword_spell_base.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"object_Universal_Colision","path":"objects/object_Universal_Colision/object_Universal_Colision.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"object_enemytarget","path":"objects/object_enemytarget/object_enemytarget.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
